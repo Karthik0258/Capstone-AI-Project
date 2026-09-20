@@ -1,6 +1,6 @@
 # Analytics Module — Titanic Dataset
 
-## 📌 Overview
+## Overview
 This module demonstrates the full analyst‑to‑data‑scientist workflow in one pass:
 - Profile the Titanic dataset
 - Handle imperfections defensibly
@@ -12,7 +12,7 @@ Dataset loaded once via `sns.load_dataset("titanic")` and saved as `titanic.csv`
 
 ---
 
-## 🧩 Part A — EDA & Data Story
+## Part A — EDA & Data Story
 
 ### Profiling & Cleaning
 - Dataset shape, info, describe outputs
@@ -39,7 +39,7 @@ Dataset loaded once via `sns.load_dataset("titanic")` and saved as `titanic.csv`
 
 ---
 
-## ⚙️ Part B — Predictive Modeling
+## Part B — Predictive Modeling
 
 ### Train/Test Split
 - Stratified split justified by class imbalance
@@ -74,7 +74,7 @@ Dataset loaded once via `sns.load_dataset("titanic")` and saved as `titanic.csv`
 
 ---
 
-## 📊 Final Comparison
+## Final Comparison
 
 ### Classifier Metrics
 | Model              | Accuracy | Precision | Recall | F1 | ROC AUC |
@@ -90,14 +90,14 @@ Dataset loaded once via `sns.load_dataset("titanic")` and saved as `titanic.csv`
 
 ---
 
-## ✅ Recommendation
+## Recommendation
 Based on the evaluation:
 - **Best classifier**: [Insert model name] — chosen for its superior [metric values].
 - **Reasoning**: Reference accuracy, precision/recall balance, F1, and ROC AUC.
-- Regression task provided useful insights into fare prediction but is not directly comparable to classification metrics.
+- The regression task provided useful insights into fare prediction but is not directly comparable to classification metrics.
 
 ---
 
-## 💾 Saved Pipeline
+## Saved Pipeline
 - Full preprocessing + estimator pipeline saved via `joblib.dump`
 - Reload confirmed with `joblib.load` on raw input
