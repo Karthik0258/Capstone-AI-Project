@@ -1,0 +1,10 @@
+## Data Source
+Scraped from [books.toscrape.com](http://books.toscrape.com) across **3 categories**:
+- Travel
+- Mystery
+- Science
+
+Total rows: ≥ 60 books.
+
+## Conversion Rate
+Fixed baseline: **1 GBP = 105.50 INR** (project-defined constant).
