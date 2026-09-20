@@ -8,7 +8,7 @@ This repository contains three integrated modules that together demonstrate a fu
 - **Contents**:
   - `pipeline.py`: Loads, cleans, and preprocesses the dataset.
   - `requirements.txt`: Dependencies (pandas, scikit‑learn, seaborn).
-  - `README.md`: Notes on install/run steps and design decisions.
+  - `README.txt`: Notes on install/run steps and design decisions.
 - **Output**: Produces `processed_titanic.csv` for downstream analytics.
 
 ### 2. `analytics/`
